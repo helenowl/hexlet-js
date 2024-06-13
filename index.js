@@ -1,4 +1,4 @@
-import _ from "lodash";
+import getLastL from './src/index.js';
 
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+const lastL = getLastL();
+console.log(`${lastL}`);
